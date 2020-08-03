@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function() {
-  var hamburger = document.getElementById("hamburger");
-  var hamburgerPanel = document.getElementById("hamburgerPanel");
+  let hamburger = document.getElementById("hamburger");
+  let hamburgerPanel = document.getElementById("hamburgerPanel");
   hamburger.onclick = function(e) {
     if (hamburgerPanel.classList.contains("hide")) {
       hamburgerPanel.classList.remove("hide");
