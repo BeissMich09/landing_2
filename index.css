@@ -30,6 +30,7 @@
     height: 25px;
     cursor: pointer;
     border-radius: 3px;
+    z-index: 4;
 }
 
 .hamburger div {
@@ -37,31 +38,6 @@
     border-radius: 3px;
     background-color: rgb(145, 11, 235);
 }
-
-
-/* .top {
-  stroke-dasharray: 40 160;
-}
-.mid {
-  stroke-dasharray: 40 142;
-  transform-origin: 50%;
-  transition: transform 400ms;
-}
-.bottom {
-  stroke-dasharray: 40 85;
-  transform-origin: 50%;
-  transition: transform 400ms, stroke-dashoffset 400ms;
-}
-.top {
-  stroke-dashoffset: -64px;
-}
-.mid {
-  //stroke-dashoffset: -20px;
-  transform: rotate(90deg);
-}
-.bottom {
-  stroke-dashoffset: -64px;
-} */
 
 .hide {
     margin-left: -60vw;
