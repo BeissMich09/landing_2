@@ -170,4 +170,38 @@
         top: 0;
         position: relative;
     }
+    .contact_us_contant_addresses_and_question,
+    .contact_us_contant_addresses_and_question_two_line,
+    .contact_us_contant_addresses_and_question_first_line,
+    .contact_us_contant_addresses_and_question_second_line {
+        width: 100%;
+    }
+    .contact_us_contant_addresses_and_question_first_line {
+        flex-direction: column;
+        align-items: center;
+    }
+    .contact_us_contant_addresses_and_question {
+        text-align: center;
+    }
+    .contact_us_contant_addresses_and_question_first_line input,
+    .contact_us_contant_addresses_and_question_second_line input {
+        width: 90%;
+    }
+    .contact_us_contant_addresses_and_question_second_line {
+        display: flex;
+        justify-content: center;
+    }
+    .contact_us_contant_addresses_and_question_second_line input,
+    .contact_us_contant_addresses_and_question_first_line input:last-child {
+        margin-top: 10px;
+    }
+    .contact_us_contant_addresses_and_question_two_line {
+        height: auto;
+    }
+    .contact_us_contant_addresses_and_q {
+        height: 855px;
+    }
+    .our_work_nav {
+        width: 90%;
+    }
 }
