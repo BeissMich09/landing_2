@@ -204,4 +204,10 @@
     .our_work_nav {
         width: 90%;
     }
+    .contant_our_services_list_services div {
+        height: 345px;
+    }
+    .contant_our_services_list_services {
+        height: 1600px;
+    }
 }
